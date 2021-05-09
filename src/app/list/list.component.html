@@ -1,0 +1,8 @@
+<h1>Countries</h1>
+<ul *ngIf="countries">
+
+    <li *ngFor="let country of countries;">
+        <p class="name">{{ country.name }}</p>
+<p class="alpha3Code">{{country.alpha3Code}}</p>
+    </li>
+</ul>
